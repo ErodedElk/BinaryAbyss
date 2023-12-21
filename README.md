@@ -16,7 +16,7 @@
 - [汇编基础 / 从 C 语言到汇编](https://www.bilibili.com/video/BV1GC4y1F7wa)
 	- 什么是寄存器
 	- 处理器与内存如何进行交互
-- Pwn 介绍 / 目标与手段
+- [Pwn 介绍 / 目标与手段](https://www.bilibili.com/video/BV1J94y1P76i)
 	- 一道常规 Pwn 题该有的信息
 	- 如何与题目进行交互 / pwntools
 - 从做题到出题 / Pwn 容器搭建与部署
