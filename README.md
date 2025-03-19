@@ -34,7 +34,7 @@
 	- [pwn入门之环境搭建 - Haruki](https://hgg-bat.github.io/2021/10/04/pwn%E5%85%A5%E9%97%A8%E4%B9%8B%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
 	- [M1/M2 Pwn环境配置 - patrik](https://byesec.com/posts/5aa3009d.html)
 	- 这部分内容不做单独讲解，这里引用了两份博客，不完善部分可以自行搜索
-- 劫持栈
+- [劫持栈](https://www.bilibili.com/video/BV1ytQaYvETy)
 	- ret2text
 	- ret2shellcode
 	- ret2libc
@@ -68,7 +68,6 @@
 - 常见程序保护策略
 	- 自修改代码 SMC
 	- 反调试 / 反编译
-	- 
 - 模拟执行
 	- angr 模拟执行原理与实践
 - 代码插桩与程序跟踪
