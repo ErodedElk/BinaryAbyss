@@ -41,7 +41,7 @@
 	- ret2csu
 	- 栈迁移 / Stack Pivoting
 	- SROP
-- 程序保护机制介绍与绕过
+- [程序保护机制介绍与绕过](https://www.bilibili.com/video/BV1MQofYaEL6)
 	- 金丝雀保护 / Canary Protection
 	- PIE / 地址无关代码
 	- RELRO / 重定向
