@@ -46,7 +46,7 @@
 	- PIE / 地址无关代码
 	- RELRO / 重定向
 	- NX / 内存权限限制
-- 劫持堆
+- [劫持堆](https://www.bilibili.com/video/BV1QTZZYiEdf)
 	- ptmalloc2 堆管理机制
 	- 堆溢出 / Heap Overflow
 	- UAF 攻击 / Double Free 攻击
