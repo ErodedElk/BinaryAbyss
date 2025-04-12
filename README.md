@@ -5,6 +5,9 @@
 这是一个二进制安全系列课程。以 **CTF(Capture The Flag)** 为导向，预计将会包括 **Basic(基础知识)**、 **Pwn(二进制漏洞利用)** 与 **Reverse(逆向工程)** 三部分主要内容以及 **Other(其他内容)**。
 ![](image/top.png)
 > 备注：本项目的课程会按照前后铺垫的顺序陆续发布，对于刚入门的同学，建议按照课程更新顺序查看。
+
+一般来说，本系列课程的内容偏向于**理论层面的通识课程**，而非直接通过实战来短期快速提升能力。
+我们希望本系列课程能够帮助您在学习过程中**弥补那些由于过于晦涩又或是难以接触而导致缺失的内容**，我认为，它们**很重要**，但是在我过去的学习中，**却理解的太晚了**。因此将这些偏僻的内容制作为课程，希望能够在您的学习过程中帮到您。
 ## 目录
 ### 前言
 - [项目介绍](https://www.bilibili.com/video/BV1Fc411X7VX):二进制安全系列课程第0节/前言
@@ -34,28 +37,26 @@
 	- [pwn入门之环境搭建 - Haruki](https://hgg-bat.github.io/2021/10/04/pwn%E5%85%A5%E9%97%A8%E4%B9%8B%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
 	- [M1/M2 Pwn环境配置 - patrik](https://byesec.com/posts/5aa3009d.html)
 	- 这部分内容不做单独讲解，这里引用了两份博客，不完善部分可以自行搜索
-- [劫持栈](https://www.bilibili.com/video/BV1ytQaYvETy)
+- [劫持栈: 栈劫持与冥思](https://www.bilibili.com/video/BV1ytQaYvETy)
 	- ret2text
 	- ret2shellcode
 	- ret2libc
-	- ret2csu
 	- 栈迁移 / Stack Pivoting
-	- SROP
-- [程序保护机制介绍与绕过](https://www.bilibili.com/video/BV1MQofYaEL6)
+- [程序保护机制介绍与绕过: 如何设计应用层保护机制](https://www.bilibili.com/video/BV1MQofYaEL6):
 	- 金丝雀保护 / Canary Protection
 	- PIE / 地址无关代码
 	- RELRO / 重定向
 	- NX / 内存权限限制
-- [劫持堆](https://www.bilibili.com/video/BV1QTZZYiEdf)
+- [劫持堆: 如何设计一个简单的堆管理器](https://www.bilibili.com/video/BV1QTZZYiEdf)
 	- ptmalloc2 堆管理机制
 	- 堆溢出 / Heap Overflow
 	- UAF 攻击 / Double Free 攻击
 	- Tcache Bin Attack
 	- Fast Bin Attack
-- 沙箱保护 Seccomp 绕过
-	- 黑名单 execve
-		- 构造 ROP 绕过
-		- 堆上劫持利用 magic gadget
+- [沙箱概念: 什么是沙箱，局域网也是沙箱？](https://www.bilibili.com/video/BV1yCddYjExw)
+	- 沙箱的概念 - 到底什么算沙箱
+	- 有哪些类型的安全机制能够被视为沙箱
+	- 沙箱逃逸干些啥，目标是什么，能逃吗？
 - 格式化字符串漏洞利用
 	- 栈上的格式化字符串
 	- 堆上的格式化字符串
